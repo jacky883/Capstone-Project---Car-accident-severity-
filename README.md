@@ -13,12 +13,13 @@ Attributes  | Description
 LOCATION:  | The X and Y coordinates of the collision.
 SEVERITYCODE:  | A code that corresponds to the severity of the collision:3—fatality 2b—serious injury 2—injury 1—prop damage 0—unknown 
 COLLISIONTYPE:   | Types of collision
-JUNCTIONTYPE: | Category of junction at which collision took place. 
 ADDRTYPE:  | 3 Types of location where the collision occured: Alley, Block, Intersection.
 WEATHER: |The weather condition when collision occured.
-SPEEDING: |Whether the driver was speeding during the collision.
 LIGHTCOND: |The light condition during the collision.
 ROADCOND: |The road condition during the collision.
-          
+
+The SEVERITYCODE would be used as dependent variable and the rest of the attributes would be used as independent variables.
+
+
           
 
